@@ -22,16 +22,16 @@ documentation, and 3D model assets in one public, reusable place.
 
 The project currently uses the following core hardware components.
 
-| Category | Device Used | Purpose | Status |
-| --- | --- | --- | --- |
-| Controller | LubanCat 4 (RK3588S2) | Main control, computation, and system coordination | Selected |
-| LiDAR | Livox MID360s | 3D spatial perception and environment sensing | Selected |
-| Camera | Hikvision MV-CS016-10GC x4 | Multi-view image capture | Selected |
-| IMU | ICM40609 | Inertial measurement, integrated inside the MID360s module | Selected |
-| GNSS Receiver | u-blox F9P | High-precision positioning | Selected |
-| Antenna | Beitian BT-256 | GNSS signal reception | Selected |
-| Network Switch | Qiandezhi commercial 1000 Mbps gigabit switch | Wired data transfer between onboard devices | Selected |
-| Power | 4800 mAh lithium battery | Portable power supply | Selected |
+| Category | Device Used | Description |
+| --- | --- | --- |
+| Computer | LubanCat 4 (RK3588S2) | Main onboard computer for system control, computation, and device coordination |
+| LiDAR | Livox MID360s | 3D sensing module for spatial perception and environment mapping |
+| Camera | Hikvision MV-CS016-10GC x4 | Four industrial cameras for multi-view image capture |
+| IMU | ICM40609 | Inertial measurement unit integrated inside the MID360s module |
+| GNSS Receiver | u-blox F9P | High-precision positioning receiver for global navigation data |
+| Antenna | Beitian BT-256 | GNSS antenna used with the positioning receiver |
+| Network Switch | Qiandezhi commercial 1000 Mbps gigabit switch | Gigabit wired network hub for onboard device communication |
+| Power | 4800 mAh lithium battery | Portable battery power source for the device system |
 
 Detailed device notes, quantities, interfaces, and open items are maintained in
 [`hardware/README.md`](hardware/README.md).
