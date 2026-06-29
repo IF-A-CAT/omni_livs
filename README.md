@@ -20,21 +20,21 @@ documentation, and 3D model assets in one public, reusable place.
 
 ## Device Types
 
-The project uses the following device categories. Replace the `TBD` entries
-with the exact device names, model numbers, and links as the hardware list is
-finalized.
+The project currently uses the following core hardware components.
 
-| Category | Devices Used | Purpose | Status |
+| Category | Device Used | Purpose | Status |
 | --- | --- | --- | --- |
-| Controller | TBD | Main control and computation | Planned |
-| Sensors | TBD | Data collection and environment/device sensing | Planned |
-| Actuators | TBD | Motion, switching, or physical output | Planned |
-| Communication | TBD | Wired or wireless data transfer | Planned |
-| Power | TBD | Power supply, conversion, and protection | Planned |
-| Mechanical Parts | TBD | Frame, enclosure, mounting, and fixtures | Planned |
-| Tools and Accessories | TBD | Assembly, testing, calibration, and maintenance | Planned |
+| Controller | LubanCat 4 (RK3588S2) | Main control, computation, and system coordination | Selected |
+| LiDAR | Livox MID360s | 3D spatial perception and environment sensing | Selected |
+| Camera | Hikvision MV-CS016-10GC x4 | Multi-view image capture | Selected |
+| IMU | ICM40609 | Inertial measurement, integrated inside the MID360s module | Selected |
+| GNSS Receiver | u-blox F9P | High-precision positioning | Selected |
+| Antenna | Beitian BT-256 | GNSS signal reception | Selected |
+| Network Switch | Qiandezhi commercial 1000 Mbps gigabit switch | Wired data transfer between onboard devices | Selected |
+| Power | 4800 mAh lithium battery | Portable power supply | Selected |
 
-Detailed device notes should be added in [`hardware/README.md`](hardware/README.md).
+Detailed device notes, quantities, interfaces, and open items are maintained in
+[`hardware/README.md`](hardware/README.md).
 
 ## 3D Models
 
