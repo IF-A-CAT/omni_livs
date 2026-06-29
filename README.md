@@ -50,6 +50,19 @@ the [`models/`](models/) directory, with the animated preview shown below.
 Large 3D files should be managed with Git LFS when they become too large for
 normal Git history.
 
+## Time Synchronization
+
+LiDAR, cameras, and IMU data are synchronized to the host through PTP. The
+hardware clock of the host network interface works as the PTP master, while the
+camera exposure timing is aligned through the internal action trigger mechanism
+of the Hikvision cameras. GNSS timestamps are converted from GPS week and
+time-of-week seconds to UNIX time. Because the host receives time over the
+network, GNSS position timestamps can have millisecond-level latency relative to
+the host's real time.
+
+More details are documented in
+[`docs/time-synchronization.md`](docs/time-synchronization.md).
+
 ## Getting Started
 
 Clone the repository:

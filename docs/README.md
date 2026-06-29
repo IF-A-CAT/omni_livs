@@ -8,5 +8,6 @@ Suggested documents:
 - System overview
 - Hardware setup
 - Software setup
+- [Time synchronization](time-synchronization.md)
 - Assembly guide
 - Testing and calibration notes
