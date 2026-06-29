@@ -9,5 +9,6 @@ Suggested documents:
 - Hardware setup
 - Software setup
 - [Time synchronization](time-synchronization.md)
+- [Ground truth calculation](ground-truth.md)
 - Assembly guide
 - Testing and calibration notes
