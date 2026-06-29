@@ -38,21 +38,14 @@ Detailed device notes, quantities, interfaces, and open items are maintained in
 
 ## 3D Models
 
-The project includes a 3D device model preview and the source CAD model file.
+The project includes a 3D preview of the device and the source CAD files used
+for mechanical design and 3D printing. The full device assembly is provided as
+[`Device.STEP`](models/device/Device.STEP), and the handheld mold parts are
+available as [`bottom_new.STEP`](models/handheld/bottom_new.STEP) and
+[`top_new.STEP`](models/handheld/top_new.STEP). These files are stored under
+the [`models/`](models/) directory, with the animated preview shown below.
 
 ![3D model preview](docs/assets/device-3d-model.gif)
-
-| Model Name | Related Device/Part | Recommended Format | Repository Path | Status |
-| --- | --- | --- | --- | --- |
-| Device 3D Model | Full device assembly | STEP, GIF | [`models/device/Device.STEP`](models/device/Device.STEP) | Available |
-| Handheld Bottom Mold | 3D-printing mold part | STEP | [`models/handheld/bottom_new.STEP`](models/handheld/bottom_new.STEP) | Available |
-| Handheld Top Mold | 3D-printing mold part | STEP | [`models/handheld/top_new.STEP`](models/handheld/top_new.STEP) | Available |
-
-Recommended model formats:
-
-- `STEP` or `FCStd` for editable CAD source files
-- `STL` for 3D printing
-- `OBJ` or `GLB` for web preview and visualization
 
 Large 3D files should be managed with Git LFS when they become too large for
 normal Git history.
