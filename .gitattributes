@@ -1,14 +1,16 @@
 # Normalize text files.
 * text=auto
 
-# Large 3D model assets are good candidates for Git LFS.
-*.3mf filter=lfs diff=lfs merge=lfs -text
-*.fbx filter=lfs diff=lfs merge=lfs -text
-*.glb filter=lfs diff=lfs merge=lfs -text
-*.gltf filter=lfs diff=lfs merge=lfs -text
-*.iges filter=lfs diff=lfs merge=lfs -text
-*.igs filter=lfs diff=lfs merge=lfs -text
-*.obj filter=lfs diff=lfs merge=lfs -text
-*.ply filter=lfs diff=lfs merge=lfs -text
-*.step filter=lfs diff=lfs merge=lfs -text
-*.stl filter=lfs diff=lfs merge=lfs -text
+# Treat 3D model assets as binary files.
+*.3mf binary
+*.fbx binary
+*.glb binary
+*.gltf binary
+*.iges binary
+*.igs binary
+*.obj binary
+*.ply binary
+*.step binary
+*.STEP binary
+*.stl binary
+*.STL binary

@@ -6,9 +6,11 @@ This directory stores 3D model files used by the project.
 
 ```text
 models/
-  enclosure/
-  mounting-bracket/
-  assembly/
+  device/
+    Device.STEP
+  handheld/
+    bottom_new.STEP
+    top_new.STEP
 ```
 
 ## File Guidelines
@@ -24,6 +26,6 @@ models/
 
 | Model Name | Device/Part | Source File | Export File | Status |
 | --- | --- | --- | --- | --- |
-| Enclosure | TBD | TBD | TBD | TBD |
-| Mounting Bracket | TBD | TBD | TBD | TBD |
-| Assembly | TBD | TBD | TBD | TBD |
+| Device 3D Model | Full device assembly | [`device/Device.STEP`](device/Device.STEP) | [`../docs/assets/device-3d-model.gif`](../docs/assets/device-3d-model.gif) | Available |
+| Handheld Bottom Mold | 3D-printing mold part | [`handheld/bottom_new.STEP`](handheld/bottom_new.STEP) | TBD | Available |
+| Handheld Top Mold | 3D-printing mold part | [`handheld/top_new.STEP`](handheld/top_new.STEP) | TBD | Available |

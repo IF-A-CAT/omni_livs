@@ -38,15 +38,15 @@ Detailed device notes should be added in [`hardware/README.md`](hardware/README.
 
 ## 3D Models
 
-The 3D models used by the project should be stored under the `models/`
-directory. Each model should include the editable source format when possible
-and an export format for fabrication or preview.
+The project includes a 3D device model preview and the source CAD model file.
+
+![3D model preview](docs/assets/device-3d-model.gif)
 
 | Model Name | Related Device/Part | Recommended Format | Repository Path | Status |
 | --- | --- | --- | --- | --- |
-| Enclosure | Mechanical enclosure | STEP, STL, GLB | `models/enclosure/` | TBD |
-| Mounting Bracket | Device mounting part | STEP, STL | `models/mounting-bracket/` | TBD |
-| Device Assembly | Full device assembly preview | STEP, GLB | `models/assembly/` | TBD |
+| Device 3D Model | Full device assembly | STEP, GIF | [`models/device/Device.STEP`](models/device/Device.STEP) | Available |
+| Handheld Bottom Mold | 3D-printing mold part | STEP | [`models/handheld/bottom_new.STEP`](models/handheld/bottom_new.STEP) | Available |
+| Handheld Top Mold | 3D-printing mold part | STEP | [`models/handheld/top_new.STEP`](models/handheld/top_new.STEP) | Available |
 
 Recommended model formats:
 
