@@ -27,7 +27,7 @@ technical details still need to be completed.
 | CAM-001 | Camera | Hikvision industrial camera | MV-CS016-10GC | 4 | Multi-view image capture | Selected |
 | LENS-001 | Lens | Camera lens | MVL-HF03524M-MP | 4 | Lens for each Hikvision camera module | Selected |
 | IMU-001 | IMU | Built-in IMU inside Livox MID360s | ICM40609 | 1 | LiDAR-integrated inertial measurement for motion and orientation reference | Selected |
-| IMU-002 | IMU | Additional inertial measurement unit | ADIS16465 | 1 | Added IMU for motion and orientation reference | Selected |
+| IMU-002 | IMU | Additional inertial measurement unit | [ADIS16465](https://www.analog.com/media/en/technical-documentation/data-sheets/adis16465.pdf) | 1 | Added IMU for motion and orientation reference | Selected |
 | GNSS-001 | GNSS Receiver | u-blox ZED F9P receiver | ZED F9P | 1 | High-precision positioning | Selected |
 | ANT-001 | Antenna | Beitian GNSS antenna | BT-256 | 1 | GNSS signal reception | Selected |
 | NET-001 | Network Switch | Qiandezhi commercial gigabit switch | 1000 Mbps | 1 | Wired data transfer between onboard devices | Selected |

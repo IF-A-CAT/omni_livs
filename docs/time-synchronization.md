@@ -49,6 +49,8 @@ sensors. Its synchronization is based on the Data Ready (DR) signal:
 This offset should be considered when fusing ADIS16465 data with LiDAR, camera,
 MID360s built-in IMU, and GNSS data.
 
+ADIS16465 reference: [Analog Devices ADIS16465 Data Sheet (Rev. C)](https://www.analog.com/media/en/technical-documentation/data-sheets/adis16465.pdf).
+
 ## Camera Triggering
 
 The Hikvision cameras are synchronized through the camera internal action

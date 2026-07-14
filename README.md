@@ -45,21 +45,20 @@ for mechanical design and 3D printing. The full device assembly is provided as
 [`Device.STEP`](models/device/Device.STEP), and the handheld mold parts are
 available as [`bottom_new.STEP`](models/handheld/bottom_new.STEP) and
 [`top_new.STEP`](models/handheld/top_new.STEP). These files are stored under
-the [`models/`](models/) directory, with the animated preview shown below.
+the [`models/`](models/) directory.
 
-![3D model preview](docs/assets/device-3d-model.gif)
+## Visual Preview
+
+The 3D model preview and physical prototype photos are shown together below.
+
+<p align="center">
+  <img src="docs/assets/device-3d-model.gif" alt="3D model preview" width="32%">
+  <img src="docs/assets/device-photo-front.jpg" alt="Physical prototype front view" width="32%">
+  <img src="docs/assets/device-photo-top.jpg" alt="Physical prototype top view" width="32%">
+</p>
 
 Large 3D files should be managed with Git LFS when they become too large for
 normal Git history.
-
-## Physical Prototype
-
-The current physical prototype integrates the Livox MID360s LiDAR and four
-Hikvision camera modules with MVL-HF03524M-MP lenses on the mechanical frame.
-
-![Physical prototype front view](docs/assets/device-photo-front.jpg)
-
-![Physical prototype top view](docs/assets/device-photo-top.jpg)
 
 ## Time Synchronization
 
