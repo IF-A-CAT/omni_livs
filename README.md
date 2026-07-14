@@ -27,7 +27,8 @@ The project currently uses the following core hardware components.
 | Computer | LubanCat 4 (RK3588S2) | Main onboard computer for system control, computation, and device coordination |
 | LiDAR | Livox MID360s | 3D sensing module for spatial perception and environment mapping |
 | Camera | Hikvision MV-CS016-10GC x4 | Four industrial cameras for multi-view image capture |
-| IMU | ICM40609 | Inertial measurement unit integrated inside the MID360s module |
+| Lens | MVL-HF03524M-MP x4 | Four camera lenses matched with the Hikvision camera modules |
+| IMU | ICM40609 and ADIS16465 | Inertial measurement units for motion and orientation reference |
 | GNSS Receiver | u-blox ZED F9P | High-precision positioning receiver for global navigation data |
 | Antenna | Beitian BT-256 | GNSS antenna used with the positioning receiver |
 | Network Switch | Qiandezhi commercial 1000 Mbps gigabit switch | Gigabit wired network hub for onboard device communication |
