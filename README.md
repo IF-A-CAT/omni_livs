@@ -48,10 +48,14 @@ the [`models/`](models/) directory.
 The 3D model preview and physical prototype photos are shown together below.
 
 <p align="center">
-  <img src="docs/assets/device-3d-model.gif" alt="3D model preview" width="32%">
-  <img src="docs/assets/device-photo-front.jpg" alt="Physical prototype front view" width="32%">
-  <img src="docs/assets/device-photo-top.jpg" alt="Physical prototype top view" width="32%">
+  <img src="docs/assets/preview-3d-model.jpg" alt="3D model preview" width="32%">
+  <img src="docs/assets/preview-photo-front.jpg" alt="Physical prototype front view" width="32%">
+  <img src="docs/assets/preview-photo-top.jpg" alt="Physical prototype top view" width="32%">
 </p>
+
+Original assets: [3D model GIF](docs/assets/device-3d-model.gif),
+[front photo](docs/assets/device-photo-front.jpg), and
+[top photo](docs/assets/device-photo-top.jpg).
 
 Large 3D files should be managed with Git LFS when they become too large for
 normal Git history.
