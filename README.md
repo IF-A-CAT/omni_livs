@@ -12,7 +12,6 @@ documentation, and 3D model assets in one public, reusable place.
   README.md          Project overview and public entry point
   LICENSE            Open-source license
   docs/              Design notes and user documentation
-  hardware/          Device types, device list, and bill of materials
   models/            3D model files for devices and mechanical parts
   src/               Source code
   examples/          Example code and usage demos
@@ -34,9 +33,6 @@ The project currently uses the following core hardware components.
 | Antenna | Beitian BT-256 | GNSS antenna used with the positioning receiver |
 | Network Switch | Qiandezhi commercial 1000 Mbps gigabit switch | Gigabit wired network hub for onboard device communication |
 | Power | 4800 mAh lithium battery | Portable battery power source for the device system |
-
-Detailed device notes, quantities, interfaces, and open items are maintained in
-[`hardware/README.md`](hardware/README.md).
 
 ## 3D Models
 
@@ -104,7 +100,6 @@ Contributions are welcome. Please keep changes organized by area:
 
 - Code changes go in `src/`
 - Example usage goes in `examples/`
-- Device information goes in `hardware/`
 - 3D models go in `models/`
 - Design and usage documentation goes in `docs/`
 
