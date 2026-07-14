@@ -28,7 +28,7 @@ The project currently uses the following core hardware components.
 | Camera | Hikvision MV-CS016-10GC x4 | Four industrial cameras for multi-view image capture |
 | Lens | MVL-HF03524M-MP x4 | Four camera lenses matched with the Hikvision camera modules |
 | IMU (LiDAR built-in) | ICM40609 | Built-in IMU inside the Livox MID360s module |
-| IMU (additional) | ADIS16465 | Additional IMU for motion and orientation reference |
+| IMU (additional) | ADIS16465 | Additional IMU with higher precision than the MID360s built-in ICM40609 |
 | GNSS Receiver | u-blox ZED F9P | High-precision positioning receiver for global navigation data |
 | Antenna | Beitian BT-256 | GNSS antenna used with the positioning receiver |
 | Network Switch | Qiandezhi commercial 1000 Mbps gigabit switch | Gigabit wired network hub for onboard device communication |
