@@ -1,6 +1,6 @@
-# 2026project
+# omni_livs
 
-An open-source repository for the 2026 device project.
+An open-source repository for the omni_livs device project.
 
 This repository is intended to keep the project code, device information,
 documentation, and 3D model assets in one public, reusable place.
@@ -8,7 +8,7 @@ documentation, and 3D model assets in one public, reusable place.
 ## Repository Structure
 
 ```text
-2026project/
+omni_livs/
   README.md          Project overview and public entry point
   LICENSE            Open-source license
   docs/              Design notes and user documentation
@@ -33,6 +33,11 @@ The project currently uses the following core hardware components.
 | Antenna | Beitian BT-256 | GNSS antenna used with the positioning receiver |
 | Network Switch | Qiandezhi commercial 1000 Mbps gigabit switch | Gigabit wired network hub for onboard device communication |
 | Power | 4800 mAh lithium battery | Portable battery power source for the device system |
+
+Note on the camera system: the camera sensor format is 1/2.9", while the lens
+image circle is 1/1.8". Although the lens is rated at 94.3° × 78.0° field of
+view, the effective field of view after conversion is about 70°-72° horizontally
+and 56°-57° vertically.
 
 ## 3D Models
 
@@ -91,8 +96,8 @@ More details are documented in
 Clone the repository:
 
 ```bash
-git clone https://github.com/IF-A-CAT/2026project.git
-cd 2026project
+git clone https://github.com/IF-A-CAT/omni_livs.git
+cd omni_livs
 ```
 
 Project-specific setup instructions will be added after the code structure is
